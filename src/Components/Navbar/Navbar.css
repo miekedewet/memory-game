@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+
+.game-logo {
+    padding-top: 50px;
+}
+
+.help-link {
+    font-family: 'Tourney', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}

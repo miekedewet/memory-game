@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# Memory Game created with React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This is a simple memory game where users flip cards until they have matched all the pairs.
+
+There are 12 cards and six pairs. Once all pairs have been matched the game can be restarted.
+
+## Getting Started + Rules of the Game
+
+Smiley faces are shuffled and placed face down at the start of each game.
+
+Start by turning over each card and matching it with the same card.
+
+You will only be able to turn over two cards at a time, after which  both will be flipped back.
+
+After all cards have been matched, you will have the option to start again!
+
+## Built With
+
+React.js
+create-react-app
+react-router-dom
 
 ## Available Scripts
 
@@ -44,22 +64,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 

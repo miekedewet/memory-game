@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+  background-color: #f5ede2;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.game {
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 450px;
+  width: 700px;
+  align-items: center;
+}
+
+.image {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 120px;
+  width: 120px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.image-blank {
+  background: url("./Images/back-smiley.svg") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 120px;
+  width: 120px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.end-game {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+}
+
+.message {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background: #f5ede2;
+  font-family: 'Tourney', sans-serif;
+  font-size: 30px;
+  color: #f65136;
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 600px) {
+  .image {
+    height: 100px;
+    width: 110px;
+    margin: 5px;
+  }
+  .message {
+    width: 400px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-primary {
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: #f65136;
+  padding: 15px;
+  color: #f5ede2;
+  border: none;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 25px;
 }
